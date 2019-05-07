@@ -1,0 +1,32 @@
+{
+  "name": "easy-date-format",
+  "version": "1.0.2",
+  "main": "lib/index.js",
+  "author": {
+    "name": "JungHoonPark",
+    "email": "junghooncentralpark@gmail.com"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "description": "An Easy date format function.",
+  "keywords": [
+    "Simple Date Format",
+    "Date Format",
+    "Date",
+    "Easy Date Format",
+    "Easy Format"
+  ],
+  "homepage": "https://github.com/qkreltms/easy-date-format",
+  "bugs": {
+    "url": "https://github.com/qkreltms/easy-date-format/issues",
+    "email": "junghooncentralpark@gmail.com"
+  },
+  "dependencies": {
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "node test/index.js",
+    "build": "tsc lib/index.ts"
+  }
+}
