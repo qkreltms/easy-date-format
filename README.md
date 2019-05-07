@@ -1,4 +1,4 @@
-#EasyDateFormat
+# EasyDateFormat
 ```js
 import easyDateFormat from "easy-date-format";
 
