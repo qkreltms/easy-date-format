@@ -2,7 +2,7 @@ const easyDateFormat = (date: Date): string => {
   const year: number = date.getFullYear();
   const month: string = leftPad(date.getMonth() + 1);
   const day: string = leftPad(date.getDate());
-  const h: string = leftPad(date.getUTCHours());
+  const h: string = leftPad(date.getHours());
   const m: string = leftPad(date.getUTCMinutes());
   const s: string = leftPad(date.getUTCSeconds());
 
